@@ -1,0 +1,96 @@
+body {
+    background-color: #faedcd;
+    color: #a17d60;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.botaoDeCima {
+    font-weight: 600;
+    border: none;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    display: flex;
+    gap: 90px;
+    margin-right: 90px;
+    font-size: 15px;
+}
+
+.opcoes {
+    cursor: pointer;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    cursor: pointer;
+}
+
+p {
+    border: 10px solid #fefae0;
+    width: 643.4px;
+    height: 30.1px;
+    border-radius: 13px;
+    text-align: center;
+    background-color: #fefae0;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fotoPrincipal {
+    margin-top: 50px;
+    align-self: center;
+    max-width: 1169.3px;
+    height: 375.3px;
+    border-radius: 21px;
+    position: relative;
+    border: 15px;
+    box-shadow: 10px 10px 25px #986c4a;
+}
+
+.barraBaixa {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    border-radius: 21px;
+    width: 356.7px;
+    height: 235.4px;
+    margin-top: 25px;
+    cursor: pointer;
+    border: 15px;
+    box-shadow: 3px 3px 12px #986c4a;
+}
+
