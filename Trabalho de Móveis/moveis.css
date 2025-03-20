@@ -29,7 +29,7 @@ h1 {
     display: flex;
     gap: 90px;
     margin-right: 90px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .opcoes {
@@ -48,19 +48,22 @@ h1 {
 }
 
 p {
-    border: 10px solid #fefae0;
+    border: 2.3px solid #986c4a;
     width: 643.4px;
-    height: 30.1px;
+    height: 58.1px;
     border-radius: 13px;
     text-align: center;
     background-color: #fefae0;
     position: absolute;
-    top: 43%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
+    line-height: 58.1px; 
+    box-shadow: 7px 5px 10px #faedcd;
 }
+
 
 .fotoPrincipal {
     margin-top: 50px;
@@ -81,6 +84,7 @@ p {
     align-items: center;
     gap: 50px;
     text-align: center;
+    font-size: 18px;
 }
 
 .images {
